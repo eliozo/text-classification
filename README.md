@@ -22,6 +22,13 @@ Izvēlējos Reuters-21578 datu kopu, kurai bija jāveic priekšapstrāde. Šo da
 
 ## Secinājumi/Rezultāti
 Uztrenēto modeļu precizitāte:
+![image](https://github.com/eliozo/text-classification/assets/71934528/6f67aa44-d801-4524-b75f-a9b91a036e6e)
+
+Pēc šī attēla datiem var saprast, ka modeļa veiktspēja varētu būt labāka. Vidējā precizitāte ir tikai 65%.
+
+Confusion matrica: 
+![image](https://github.com/eliozo/text-classification/assets/71934528/8214da1a-d376-46b5-9231-bdac158609eb)
+
 
 
 
