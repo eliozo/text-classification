@@ -1,0 +1,14 @@
+# Faila palaišana interaktīvi
+python3 -i nb_experiment.py
+
+# Inicializē 10 kategoriju saģenerēto failu kopā ar stoplist failu
+initialise('my_stop_list.txt', 'all_ten_categories.tsv')
+
+# Sāk apmācību
+run_training("all_ten_categories.tsv", True)
+
+# Inicializē biežākos sastopamos vārdus kopā ar stoplist failu
+initialise('my_stop_list.txt', 'output_freq.tsv')
+
+# Veic validāciju un izveido confusion matrix
+run_validation("all_ten_categories.tsv", 5, 1)
