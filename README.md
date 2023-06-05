@@ -24,7 +24,7 @@ Izvēlējos Reuters-21578 datu kopu, kurai bija jāveic priekšapstrāde. Šo da
 2) `python3 -i nb_experiment.py` faila palaišana interaktīvi
 3) `initialise('my_stop_list.txt', 'all_ten_categories.tsv')` inicializē 10 kategoriju saģenerēto failu kopā ar my_stop_list.txt failu
 4) `run_training("all_ten_categories.tsv", True)` sāk apmācību
-5) `initialise('my_stop_list.txt', 'output_freq.tsv')` inicializē biežākos sastopamos vārdus kopā ar stoplist failu
+5) `initialise('my_stop_list.txt', 'output_freq.tsv')` inicializē biežākos sastopamos vārdus kopā ar my_stop_list.txt failu
 6) `run_validation("all_ten_categories.tsv", 5, 1)` veic validāciju, izveido confusion matrix, salīdzina klasifikatora precizitāti
 
 ## Secinājumi/Rezultāti
