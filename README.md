@@ -16,7 +16,9 @@ Izvēlējos Reuters-21578 datu kopu, kurai bija jāveic priekšapstrāde. Šo da
 
 ## No priekšapstrādes iegūtie faili
 `all_ten_categories.tsv` - šajā failā ir sašķiroti visi teksti, kuri pieder Reuters-21578 lielākajām kategorijām
+
 `all_training_data.tsv` - šajā failā ir visi teksti, ar visām kategorijām (netiek tālāk izmantots)
+
 `output_freq.tsv` - šajā failā ir atrodami biežākie vārdi, kuri sakārtoti no biežāk līdz retāk sastopamajiem visos Reuters-21578 tekstos
 
 ## Komandas
